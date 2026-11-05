@@ -113,7 +113,7 @@ Observed: The PING messages appeared clearly and repeatedly after setting the Se
 | Sketch at 9600, monitor at 9600    |   PING should appear clearly                  | Readable PING messages appeared repeatedly     |
 
 5. Questions
-  
+
 1. Why does UART need both sides to use the same baud rate, while SPI uses a clock line?
 - UART needs both devices to have the same baud rate so they can send and receive data at the correct speed. SPI uses a clock line to control the timing of data transfer, so both devices can stay synchronized.
 
