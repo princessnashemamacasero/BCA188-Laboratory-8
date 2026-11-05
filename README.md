@@ -1,4 +1,5 @@
 1. Pin Table
+
 | Interface | Signal | GPIO Used |
 | :-------: | :----: | :-------: |
 | UART      | TX     | 17        |
@@ -67,6 +68,7 @@ Observed: The PING messages appeared clearly and repeatedly after setting the Se
 <img width="1917" height="1017" alt="bb9182b0-793d-4726-b248-2f77f189220f" src="https://github.com/user-attachments/assets/776eb889-54e9-4b78-a41e-7adf86044020" />
 
 4. Expected vs Observed
+
 | Test                               | Expected                                      | Observed                                       |
 | :--------------------------------: | :-------------------------------------------- | :--------------------------------------------- |
 | UART with jumper                   | PING should appear every second               | PING was received continuously                 |
