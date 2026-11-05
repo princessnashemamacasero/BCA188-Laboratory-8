@@ -18,6 +18,7 @@ I²C Scanner – The program searches for devices connected to the I²C bus and 
 SPI Loopback – A test byte (0xA5) is transmitted through MOSI and read back through MISO to check if the SPI connection is working.
 
 2. Circuit Diagram
+
 The diagrams below present the circuit connections for each communication interface tested using the ESP32-S3 board.
 <img width="352" height="291" alt="UART Loopback Circuit Diagram" src="https://github.com/user-attachments/assets/f2138c5e-7ca4-41c8-b567-1dfdee2fda43" />
 Figure 1. UART Loopback Circuit Diagram
@@ -26,7 +27,8 @@ Figure 2. I²C Scanner Circuit Diagram
 <img width="406" height="358" alt="_SPI Loopback Circuit Diagram" src="https://github.com/user-attachments/assets/35089ce5-9438-4ebe-8f2b-a03c5fb0c9e2" />
 Figure 3.  SPI Loopback Circuit Diagram
 
-3. Serial Monitor Outputs
+4. Serial Monitor Outputs
+
 Test 1 — UART With Jumper 
 Expected: The Serial Monitor should display PING every second when the TX and RX pins are connected.
 Observed: The ESP32 successfully received the transmitted message, showing PING repeatedly in the Serial Monitor.
